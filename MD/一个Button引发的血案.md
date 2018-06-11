@@ -193,9 +193,7 @@ static void camerapermission_SendAction(id self, SEL _cmd, SEL action ,id target
 ```
 这样就动态创建并替换了一个叫做“CameraPermission_XXXXXX”的button子类，任何一个button，只需要调用`setNeedsCameraPermission`方法，就能够为button添加权限获取功能了。
 
-能够写到这里的话，基本上就差不多了，不过真的有人有耐心把这么烂的文章看完吗？
-
-如果你真的看到这的话，那一定是因为爱情了，你也一定发现了我似乎漏掉了什么东西，我当然是故意的！
+如果你真的看到这的话，你也一定发现了我似乎漏掉了什么东西，我当然是故意的！
 
 好了下面给你留一个作业，如果让你动态创建一个可自由组合，同时获取多个权限的button子类，你会写吗？
 
